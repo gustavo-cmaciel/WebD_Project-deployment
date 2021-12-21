@@ -1,0 +1,181 @@
+/*
+MAIN CSS - by Gustavo Maciel
+*/
+
+@import url(./bootstrap.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+body,
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*
+primary color: #01243d
+second color: #047193
+third one: #06afb8
+fourth one: #f0ede9
+*/
+
+
+/*
+NAVBAR AND HEADER - by Gustavo Maciel
+*/
+
+#header {
+    width: 100%;
+    background-color: transparent;
+    transition: background ease-out 0.2s;
+}
+
+#header.active {
+    position: fixed;
+    background: white;
+    box-shadow: 0 0 30px 0 black;
+    z-index: 9999;
+}
+
+#header .navbar-collapse {
+    width: auto;
+}
+
+#header .nav-link {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: black;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: solid 2px transparent;
+}
+
+#header .nav-link:hover {
+    border-bottom: solid 1px;
+    color: #01243d
+}
+
+.btn {
+    background-color: #01243d;
+}
+
+
+/*
+SLIDER by Gustavo Maciel
+*/
+
+#slider {
+    background: url(/IMAGES/slider.bg.png);
+}
+
+#slider h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+#slider h4 {
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+#about {
+    height: 350px;
+}
+
+a {
+    color: #047193;
+}
+
+a:hover {
+    color: #06afb8;
+}
+
+
+/*
+SERVICES by Gustavo Maciel
+*/
+
+#services a.feature {
+    display: block;
+    background: #f0ede9;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    color: #01243d;
+    text-decoration: none;
+    transition: all ease-out 0.2s;
+    text-transform: uppercase;
+}
+
+#services a.feature:hover {
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    transform: scale(1.02);
+}
+
+#servicos a.feature .img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+#servicos a.feature .img-container img {
+    max-height: 160px;
+}
+
+
+/*
+CONTACT by Gustavo Maciel
+*/
+
+#contato .email {
+    border-radius: 5px;
+    background-color: #06afb8;
+    color: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 30px;
+}
+
+#contato .email form {
+    width: 60%;
+    display: flex;
+}
+
+#contato .email .form-control,
+#contato .email .form-control::placeholder {
+    background: none;
+    color: #fff;
+}
+
+#contato ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#contato ul li {
+    display: flex;
+    list-style-type: none;
+    margin-left: 25px;
+}
+
+#contato ul li:first-child {
+    margin-left: 10px;
+}
+
+#contato ul li a {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    transition: all ease-out 0.2s;
+}

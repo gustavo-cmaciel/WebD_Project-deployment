@@ -1,0 +1,80 @@
+    /*
+Workouts by Gabriel G Santana
+*/
+    
+    @import url(./bootstrap.min.css);
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+    #p-ex {
+        color: black;
+        text-transform: none;
+    }
+    
+    #slider1 {
+        background-image: url("backg.jpg");
+        color: #a3e4d7;
+    }
+    
+    #calori {
+        background-color: cadetblue;
+        width: 85%;
+        align-items: center;
+        margin-left: 5%;
+    }
+    
+    label {
+        box-shadow: 0.1em 0.1em 0.2em #888;
+        margin: 1em;
+        border-radius: 1ex;
+        padding: 1ex 1em;
+        color: #44665f;
+        background-color: #a3e4d7;
+        display: inline-block;
+    }
+    
+    input {
+        text-align: center;
+        border: none;
+        resize: vertical;
+    }
+    
+    span {
+        font-weight: bold;
+        color: black;
+        font-size: large;
+    }
+    
+    iframe {
+        width: 560px;
+        height: 315px;
+    }
+    
+    #referenceCal {
+        box-shadow: 0.1em 0.1em 0.2em #888;
+        margin: 1em;
+        border-radius: 1ex;
+        padding: 1ex 1em;
+        color: black;
+        background-color: #a3e4d7;
+        display: inline-block;
+        width: 85%;
+        align-items: center;
+        margin-left: 5%;
+    }
+    
+    .ownC {
+        color: #6262a5;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .hDC {
+        background-color: #a8e5e7;
+        color: #183d32;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .mainH,
+    .firstText {
+        background-color: #f1f1b8;
+        color: #6e2f0a;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }

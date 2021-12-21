@@ -1,0 +1,542 @@
+
+@import url(./bootstrap.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+body,
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-nav{
+   
+    border-radius: 20px;
+    margin: 10px;
+    font-size: 20px;
+   padding: 20px;
+}
+.headerF{
+    width: 100%;
+    background-color: rgb(141, 0, 0);
+    color: white;
+    border-radius: 20px;
+}
+.text1{
+   width: 90%;
+   margin-left: 30px;
+}
+
+.headerS{
+    width: 100%;
+    background-color: rgb(190, 147, 3);
+    color: white;
+    border-radius: 20px;
+
+}
+
+.text2{
+   
+   margin-left: 30px; 
+}
+
+.headerT{
+    width: 100%;
+    background-color: rgb(6, 80, 30);
+    color: white;
+    border-radius: 20px;
+}
+
+.text3{
+    margin-left: 20px;   
+}
+button{
+    border-radius: 20px;
+    
+    background-color: darksalmon;
+    border: 1px solid #ccc;
+}
+
+.footer{
+    background-color: rgb(56, 106, 201);
+    height: 300px;
+    
+}
+
+/*
+SERVICES
+*/
+
+.readMore{
+    display: inline-block;
+}
+.card, card-body{
+    text-align: center;
+    color: black;
+}
+a.cardiac{
+    text-decoration: none;
+   
+}
+
+
+.card-body{
+    text-align: center;
+    color: black;
+}
+
+.footer{
+    background-color: #355f8b;
+    margin-bottom: 30px;
+    
+ 
+    
+}
+.fh{
+   
+    margin-top: 60px;
+    color: white;
+    font-size: 70px;
+}
+.sh{
+    color: white;
+    margin-left: 100px;
+    margin-top: -100px;
+    
+}
+
+.eInput{
+    border-radius: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    margin-right: -85px;
+    height: 40px;
+    
+
+}
+.eButton{
+    border-radius: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.87);  
+   color: white;
+   height: 40px;
+    
+}
+.sub{
+    margin-top: 30px;
+   
+}
+.footerNav{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+.footerNav{
+    list-style: none;
+    color: white;
+    margin-top: -10px;
+    
+}
+.navItem{
+    color: white;
+    padding: 10px;
+    margin: 0px;
+  float: right;
+    
+}
+.navLink{
+    color: white;
+    text-decoration: none;
+   
+}
+.gymIcone{
+  
+   margin-right: -10px;
+   float: right;
+   margin-right: 100px;
+}
+h8{
+    float: right;
+    margin-top: 107px;
+    margin-right: -130px;
+    color: white;
+    font-size: 10px;
+}
+
+/*Style for diet pages*/
+/*Heart Disease Style*/
+/*Heart Disease Style*/
+.bmiAPP {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.bmi{
+    margin-bottom: 100px;
+    padding: 10px;  
+    margin-left: 30px;
+ }
+ 
+ input{
+     border-radius: 10px;
+     border: 1px solid #ccc;
+ }
+ button{
+     border-radius: 10px;
+     border: 1px solid #ccc;
+     cursor: pointer;
+ }
+ button:hover {
+     opacity:10;
+   }
+ 
+ .cLU{
+     width: 100%;
+     height: 700px;
+     
+ 
+ }
+ 
+ .IHDheader{
+     width: 100%;
+     text-align: center;
+     background-color: rgb(94, 4, 4);
+     color: #fff;
+ }
+ 
+ .imgheartL{
+     float: left;
+     width: 20%;
+     height: 200px;
+     margin: 10px;
+ }
+ 
+ .textIHD{
+     margin: 20px;
+    
+ }
+ .manHr{
+     width: 20%;
+     height: 200px;
+     float: right;
+     
+ }
+ #demo{
+     margin: 10px;
+     border-radius: 10px;
+     background-color: aqua;
+     border: 1px solid #ccc;
+ }
+
+ .imghshs{
+     float: right;
+     margin-right: -250px;
+     
+ }
+ 
+
+ 
+ /*Cardiac Disease Style*/
+
+ .mainH{
+     width: 80%;
+     text-align: center;
+     border-radius: 10px;
+     background-color: rgba(112, 3, 3, 0.829);
+     color: #fff;
+    
+ }
+
+ .heartImg{
+     width: 30%;
+    float: right;
+     height: 200px;
+     margin-top: -80px;
+ }
+.hSymptoms{
+    width: 60%;
+    background-color: rgb(190, 233, 36);
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+
+}
+ .firstText{
+     width: 60%;
+
+ }
+ .heartattakImg{
+     margin-right: -500px;
+     float: right;
+     margin-top: -250px;
+     width: 70%;
+
+ }
+ .cellM{
+    width: 100%;
+    background-color: rgb(3, 126, 85);
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    margin: 10px;
+    margin-top: 30px;
+}
+
+.portionPlate{
+    float: right;
+    margin-left: 200px;
+}
+
+.hDC{
+ 
+    width: 95%;
+   height: auto;
+    margin: 20px;
+    padding: 10px;
+
+}
+
+/* Diabetic Diet*/
+
+.dmHeader{
+    width: 100%;
+    background-color: rgb(228, 131, 21);
+    text-align: center;
+    color: #fff;
+}
+.glucoCheckImg{
+    width: 40%;
+   float: right;
+    height: 200px;
+    margin-right: -100px;
+}
+
+/*KETOGENIC DIET*/
+
+.ketoH{
+    width: 100%;
+    text-align: center;
+    background-color: rgba(78, 0, 94, 0.829);
+    color: #fff;
+}
+
+.ketoImg{
+    width: 60%;
+    float: right;
+     height: 200px;
+    margin-right: -150px;
+    margin-top: -8px;
+}
+.secondeText{
+    width: 100%;
+}
+
+/*Weight Loss*/
+
+.mainWL{
+    width: 100%;
+    text-align: center;
+    background-color: rgba(163, 16, 168, 0.829);
+    color: #fff;
+}
+
+.wLImg{
+    width: 60%;
+    float: right;
+   
+     margin-top: -8px;
+     margin-right: -100px;
+}
+
+.firstParagraph{
+    margin-top: -50px;
+    margin-left: 30px;
+}
+
+/*New Style*/
+
+
+@import url(./bootstrap.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+body,
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+/*
+NAVBAR AND HEADER 
+*/
+
+#header {
+    width: 100%;
+    background-color: #ffffff;
+    
+   
+   
+}
+
+#header.active {
+  
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 30px 0 rgb(46, 60, 73);
+    z-index: 9999;
+    border-radius: 30px;
+    text-align: center;
+
+}
+
+#header .navbar-collapse {
+    width: auto;
+}
+
+#header .nav-link {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: rgb(10, 8, 109);
+ 
+    margin-left: 20px;
+   
+   
+   
+    
+    text-align: center;
+}
+
+#header .nav-link:hover {
+  
+    color: #394191;
+    text-align: center;
+   
+   
+}
+
+.btn {
+    background-color: #01243d;
+}
+
+
+/*
+SLIDER 
+*/
+
+#slider {
+    background: url(/IMAGES/slider.bg.png);
+}
+
+#slider h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+#slider h4 {
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+#about {
+    height: 350px;
+}
+
+a {
+    color: #047193;
+}
+
+a:hover {
+    color: #06afb8;
+}
+
+
+/*
+SERVICES 
+*/
+
+#services a.feature {
+    display: block;
+    background: #a5e099;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    color: #000000;
+    text-decoration: none;
+    transition: all ease-out 0.2s;
+    text-transform: uppercase;
+}
+
+#services a.feature:hover {
+    background-color: rgb(15, 6, 100);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    transform: scale(1.02);
+    color: white;
+}
+
+#servicos a.feature .img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+#servicos a.feature .img-container img {
+    max-height: 160px;
+}
+
+
+/*
+CONTACT 
+*/
+
+#contato .email {
+    border-radius: 10px;
+    background-color: #0630b8;
+    color: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 30px;
+}
+
+#contato .email form {
+    width: 80%;
+    display: flex;
+   
+    
+}
+
+#contato .email .form-control,
+#contato .email .form-control::placeholder {
+    background: none;
+    color: #fff;
+}
+
+#contato ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  
+}
+
+#contato ul li {
+    display: flex;
+    list-style-type: none;
+    margin-left: 25px;
+}
+
+#contato ul li:first-child {
+    margin-left: 10px;
+}
+
+#contato ul li a {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    transition: all ease-out 0.2s;
+}
+
